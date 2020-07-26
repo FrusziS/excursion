@@ -2,21 +2,44 @@ html {
      padding: 0;
      margin: 0;
      background-color: black;
+     text-align: center;
 }
 
 /* Header */
 header {
      font-family: Verdana, sans-serif;
-     text-align: center;
-     font-weight: normal;
 }
 
-header h1 {
+h1 {
      font-size: 50px;
+     font-weight: normal;
      color: white;
 }
 
-header a {
+a {
      color: aquamarine;
      font-size: 16px;
+}
+
+/* Guide Section */
+section h2 {
+     color: white;
+     font-weight: 300;
+     font-size: 42px;
+}
+
+section p {
+     color: gray;
+     font-size: 21px;
+}
+
+section img {
+     margin-bottom: 20px;
+}
+
+/* Footer */
+footer p {
+     text-align: right;
+     color: gray;
+     font-size: 21px;
 }
